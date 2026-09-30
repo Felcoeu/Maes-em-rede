@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mães em Rede</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- =========================
+         CABEÇALHO
+    ========================== -->
+
+    <header class="header">
+
+        <div class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-hands-holding-child"></i>
+            </div>
+
+            <div>
+                <h1>Mães em Rede</h1>
+                <span>Conectando cuidado e oportunidades</span>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#cuidadoras">Cuidadoras</a>
+            <a href="#oportunidades">Oportunidades</a>
+            <a href="#capacitação">Capacitação</a>
+        </nav>
+
+        <button class="btn btn-outline" onclick="abrirCadastro()">
+            <i class="fa-regular fa-user"></i>
+            Entrar
+        </button>
+
+        <button class="menu-mobile" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         MENU MOBILE
+    ========================== -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#inicio" onclick="toggleMenu()">Início</a>
+        <a href="#sobre" onclick="toggleMenu()">Sobre</a>
+        <a href="#cuidadoras" onclick="toggleMenu()">Cuidadoras</a>
+        <a href="#oportunidades" onclick="toggleMenu()">Oportunidades</a>
+        <a href="#capacitação" onclick="toggleMenu()">Capacitação</a>
+
+    </div>
+
+
+    <!-- =========================
+         HERO / INÍCIO
+    ========================== -->
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <span class="tag">
+                    <i class="fa-solid fa-heart"></i>
+                    Cuidado que conecta pessoas
+                </span>
+
+                <h2>
+                    Uma rede de apoio para
+                    <strong>mães e cuidadoras.</strong>
+                </h2>
+
+                <p>
+                    O Mães em Rede conecta famílias a cuidadoras,
+                    criando oportunidades de trabalho, capacitação
+                    e uma rede de apoio baseada em confiança.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#cuidadoras" class="btn btn-primary">
+                        Encontrar cuidadora
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <button class="btn btn-secondary" onclick="abrirCadastro()">
+                        Quero fazer parte
+                    </button>
+
+                </div>
+
+                <div class="hero-numbers">
+
+                    <div>
+                        <strong>+50</strong>
+                        <span>Cuidadoras</span>
+                    </div>
+
+                    <div>
+                        <strong>+100</strong>
+                        <span>Famílias</span>
+                    </div>
+
+                    <div>
+                        <strong>+20</strong>
+                        <span>Oportunidades</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="hero-image">
+
+                    <i class="fa-solid fa-people-group"></i>
+
+                    <div class="floating-card floating-one">
+                        <i class="fa-solid fa-star"></i>
+                        <div>
+                            <strong>4.9/5</strong>
+                            <span>Avaliação média</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-two">
+                        <i class="fa-solid fa-shield-heart"></i>
+                        <div>
+                            <strong>Rede segura</strong>
+                            <span>Conexões de confiança</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SOBRE
+        ========================== -->
+
+        <section class="section about" id="sobre">
+
+            <div class="section-title">
+
+                <span class="tag">Sobre o projeto</span>
+
+                <h2>
+                    Construindo uma rede
+                    <strong>de apoio.</strong>
+                </h2>
+
+                <p>
+                    O Mães em Rede nasceu da necessidade de aproximar mães,
+                    cuidadoras e oportunidades profissionais.
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-card">
+
+                    <div class="icon-box pink">
+                        <i class="fa-solid fa-people-arrows"></i>
+                    </div>
+
+                    <h3>Conexão</h3>
+
+                    <p>
+                        Facilitamos o encontro entre famílias que precisam
+                        de apoio e cuidadoras que oferecem seus serviços.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="icon-box green">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+
+                    <h3>Oportunidades</h3>
+
+                    <p>
+                        Criamos um espaço para divulgação de oportunidades
+                        profissionais e novas possibilidades de trabalho.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="icon-box purple">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <h3>Capacitação</h3>
+
+                    <p>
+                        Incentivamos o desenvolvimento profissional através
+                        de cursos, oficinas e conteúdos de capacitação.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             BUSCA DE CUIDADORAS
+        ========================== -->
+
+        <section class="section caregivers-section" id="cuidadoras">
+
+            <div class="section-title center">
+
+                <span class="tag">Encontre uma cuidadora</span>
+
+                <h2>
+                    Cuidado perto de
+                    <strong>você.</strong>
+                </h2>
+
+                <p>
+                    Utilize os filtros para encontrar profissionais
+                    de acordo com suas necessidades.
+                </p>
+
+            </div>
+
+
+            <div class="search-box">
+
+                <div class="input-group">
+
+                    <label>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Localização
+                    </label>
+
+                    <input
+                        type="text"
+                        id="locationFilter"
+                        placeholder="Ex.: Centro, Itapetininga"
+                    >
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label>
+                        <i class="fa-regular fa-calendar"></i>
+                        Disponibilidade
+                    </label>
+
+                    <select id="availabilityFilter">
+
+                        <option value="todos">
+                            Qualquer horário
+                        </option>
+
+                        <option value="manha">
+                            Manhã
+                        </option>
+
+                        <option value="tarde">
+                            Tarde
+                        </option>
+
+                        <option value="noite">
+                            Noite
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label>
+                        <i class="fa-solid fa-child"></i>
+                        Serviço
+                    </label>
+
+                    <select id="serviceFilter">
+
+                        <option value="todos">
+                            Todos os serviços
+                        </option>
+
+                        <option value="criancas">
+                            Cuidados infantis
+                        </option>
+
+                        <option value="bebes">
+                            Bebês
+                        </option>
+
+                        <option value="idosos">
+                            Cuidados com idosos
+                        </option>
+
+                        <option value="apoio">
+                            Apoio escolar
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <button class="btn btn-primary" onclick="filtrarCuidadoras()">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Buscar
+                </button>
+
+            </div>
+
+
+            <div class="results-header">
+
+                <div>
+                    <h3>Cuidadoras disponíveis</h3>
+                    <span id="resultCount">4 profissionais encontradas</span>
+                </div>
+
+            </div>
+
+
+            <div class="caregivers-grid" id="caregiversGrid">
+
+
+                <!-- CUIDADORA 1 -->
+
+                <article
+                    class="caregiver-card"
+                    data-location="centro"
+                    data-availability="manha tarde"
+                    data-service="criancas bebes"
+                >
+
+                    <div class="profile-header">
+
+                        <div class="avatar avatar-pink">
+                            AM
+                        </div>
+
+                        <div class="online">
+                            <span></span>
+                            Disponível
+                        </div>
+
+                    </div>
+
+                    <h3>Ana Martins</h3>
+
+                    <p class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Centro, Itapetininga
+                    </p>
+
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.9</strong>
+                        <span>(18 avaliações)</span>
+                    </div>
+
+                    <p class="description">
+                        Experiência com crianças e bebês.
+                        Disponibilidade durante a semana.
+                    </p>
+
+                    <div class="tags">
+                        <span>Crianças</span>
+                        <span>Bebês</span>
+                    </div>
+
+                    <button
+                        class="btn btn-profile"
+                        onclick="abrirPerfil('Ana Martins')"
+                    >
+                        Ver perfil
+                    </button>
+
+                </article>
+
+
+                <!-- CUIDADORA 2 -->
+
+                <article
+                    class="caregiver-card"
+                    data-location="vila nova"
+                    data-availability="tarde noite"
+                    data-service="criancas apoio"
+                >
+
+                    <div class="profile-header">
+
+                        <div class="avatar avatar-green">
+                            JS
+                        </div>
+
+                        <div class="online">
+                            <span></span>
+                            Disponível
+                        </div>
+
+                    </div>
+
+                    <h3>Juliana Santos</h3>
+
+                    <p class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Vila Nova, Itapetininga
+                    </p>
+
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.8</strong>
+                        <span>(12 avaliações)</span>
+                    </div>
+
+                    <p class="description">
+                        Cuidadora com experiência em acompanhamento
+                        infantil e apoio escolar.
+                    </p>
+
+                    <div class="tags">
+                        <span>Crianças</span>
+                        <span>Apoio escolar</span>
+                    </div>
+
+                    <button
+                        class="btn btn-profile"
+                        onclick="abrirPerfil('Juliana Santos')"
+                    >
+                        Ver perfil
+                    </button>
+
+                </article>
+
+
+                <!-- CUIDADORA 3 -->
+
+                <article
+                    class="caregiver-card"
+                    data-location="jardim brasil"
+                    data-availability="manha noite"
+                    data-service="bebes idosos"
+                >
+
+                    <div class="profile-header">
+
+                        <div class="avatar avatar-purple">
+                            CP
+                        </div>
+
+                        <div class="online">
+                            <span></span>
+                            Disponível
+                        </div>
+
+                    </div>
+
+                    <h3>Carolina Pereira</h3>
+
+                    <p class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Jardim Brasil, Itapetininga
+                    </p>
+
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>5.0</strong>
+                        <span>(25 avaliações)</span>
+                    </div>
+
+                    <p class="description">
+                        Experiência com bebês e acompanhamento
+                        de pessoas idosas.
+                    </p>
+
+                    <div class="tags">
+                        <span>Bebês</span>
+                        <span>Idosos</span>
+                    </div>
+
+                    <button
+                        class="btn btn-profile"
+                        onclick="abrirPerfil('Carolina Pereira')"
+                    >
+                        Ver perfil
+                    </button>
+
+                </article>
+
+
+                <!-- CUIDADORA 4 -->
+
+                <article
+                    class="caregiver-card"
+                    data-location="centro"
+                    data-availability="tarde"
+                    data-service="criancas"
+                >
+
+                    <div class="profile-header">
+
+                        <div class="avatar avatar-orange">
+                            RL
+                        </div>
+
+                        <div class="online">
+                            <span></span>
+                            Disponível
+                        </div>
+
+                    </div>
+
+                    <h3>Renata Lima</h3>
+
+                    <p class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Centro, Itapetininga
+                    </p>
+
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.7</strong>
+                        <span>(9 avaliações)</span>
+                    </div>
+
+                    <p class="description">
+                        Cuidadora infantil com experiência
+                        e referências profissionais.
+                    </p>
+
+                    <div class="tags">
+                        <span>Crianças</span>
+                    </div>
+
+                    <button
+                        class="btn btn-profile"
+                        onclick="abrirPerfil('Renata Lima')"
+                    >
+                        Ver perfil
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             COMO FUNCIONA
+        ========================== -->
+
+        <section class="section how">
+
+            <div class="section-title center">
+
+                <span class="tag">Como funciona</span>
+
+                <h2>
+                    Simples para
+                    <strong>todos.</strong>
+                </h2>
+
+            </div>
+
+
+            <div class="steps">
+
+                <div class="step">
+
+                    <div class="step-number">1</div>
+
+                    <h3>Cadastre-se</h3>
+
+                    <p>
+                        Crie seu perfil gratuitamente.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">2</div>
+
+                    <h3>Encontre</h3>
+
+                    <p>
+                        Pesquise cuidadoras de acordo com sua necessidade.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">3</div>
+
+                    <h3>Conheça</h3>
+
+                    <p>
+                        Consulte perfil, experiência e avaliações.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">4</div>
+
+                    <h3>Conecte-se</h3>
+
+                    <p>
+                        Entre em contato e encontre a melhor solução.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             OPORTUNIDADES
+        ========================== -->
+
+        <section class="section opportunities" id="oportunidades">
+
+            <div class="section-title">
+
+                <span class="tag">Oportunidades</span>
+
+                <h2>
+                    Novas possibilidades
+                    <strong>profissionais.</strong>
+                </h2>
+
+                <p>
+                    Encontre oportunidades de trabalho e desenvolvimento.
+                </p>
+
+            </div>
+
+
+            <div class="opportunities-grid">
+
+                <article class="opportunity-card">
+
+                    <div class="opportunity-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+
+                    <div class="opportunity-content">
+
+                        <span class="opportunity-type">
+                            Oportunidade de trabalho
+                        </span>
+
+                        <h3>
+                            Cuidadora infantil
+                        </h3>
+
+                        <p>
+                            Família procura cuidadora para acompanhamento
+                            de criança durante o período da tarde.
+                        </p>
+
+                        <div class="opportunity-info">
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Centro
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-clock"></i>
+                                Tarde
+                            </span>
+
+                        </div>
+
+                        <button
+                            class="btn btn-small"
+                            onclick="mostrarMensagem('Interesse registrado!')"
+                        >
+                            Tenho interesse
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="opportunity-card">
+
+                    <div class="opportunity-icon green-icon">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+
+                    <div class="opportunity-content">
+
+                        <span class="opportunity-type">
+                            Oportunidade de trabalho
+                        </span>
+
+                        <h3>
+                            Acompanhante de idoso
+                        </h3>
+
+                        <p>
+                            Vaga para acompanhamento durante
+                            o período da manhã.
+                        </p>
+
+                        <div class="opportunity-info">
+
+                            <span>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Jardim Brasil
+                            </span>
+
+                            <span>
+                                <i class="fa-regular fa-clock"></i>
+                                Manhã
+                            </span>
+
+                        </div>
+
+                        <button
+                            class="btn btn-small"
+                            onclick="mostrarMensagem('Interesse registrado!')"
+                        >
+                            Tenho interesse
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CAPACITAÇÃO
+        ========================== -->
+
+        <section class="section training" id="capacitação">
+
+            <div class="section-title center">
+
+                <span class="tag">Capacitação</span>
+
+                <h2>
+                    Aprender também é
+                    <strong>crescer.</strong>
+                </h2>
+
+                <p>
+                    Conteúdos e oportunidades para desenvolvimento profissional.
+                </p>
+
+            </div>
+
+
+            <div class="training-grid">
+
+                <article class="training-card">
+
+                    <div class="course-icon pink-course">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+
+                    <span>Curso</span>
+
+                    <h3>
+                        Primeiros socorros
+                    </h3>
+
+                    <p>
+                        Aprenda procedimentos básicos para situações
+                        de emergência.
+                    </p>
+
+                    <button
+                        class="btn btn-profile"
+                        onclick="mostrarMensagem('Curso selecionado!')"
+                    >
+                        Ver capacitação
+                    </button>
+
+                </article>
+
+
+                <article class="training-card">
+
+                    <div class="course-icon green-course">
+                        <i class="fa-solid fa-baby"></i>
+                    </div>
+
+                    <span>Oficina</span>
+
+                    <h3>
+                        Cuidados com bebês
+                    </h3>
+
+                    <p>
+                        Orientações sobre rotina, alimentação e cuidados
+                        essenciais com bebês.
+                    </p>
+
+                    <button
+                        class="btn btn-profile"
+                        onclick="mostrarMensagem('Oficina selecionada!')"
+                    >
+                        Ver capacitação
+                    </button>
+
+                </article>
+
+
+                <article class="training-card">
+
+                    <div class="course-icon purple-course">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+
+                    <span>Workshop</span>
+
+                    <h3>
+                        Comunicação profissional
+                    </h3>
+
+                    <p>
+                        Desenvolva habilidades de comunicação
+                        para o ambiente profissional.
+                    </p>
+
+                    <button
+                        class="btn btn-profile"
+                        onclick="mostrarMensagem('Workshop selecionado!')"
+                    >
+                        Ver capacitação
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CTA
+        ========================== -->
+
+        <section class="cta">
+
+            <div>
+
+                <span class="tag white-tag">
+                    Faça parte da rede
+                </span>
+
+                <h2>
+                    Juntos podemos construir
+                    uma rede de apoio mais forte.
+                </h2>
+
+                <p>
+                    Cadastre-se gratuitamente e faça parte
+                    do Mães em Rede.
+                </p>
+
+            </div>
+
+            <button
+                class="btn btn-white"
+                onclick="abrirCadastro()"
+            >
+                Criar meu cadastro
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         RODAPÉ
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <h2>
+                    <i class="fa-solid fa-hands-holding-child"></i>
+                    Mães em Rede
+                </h2>
+
+                <p>
+                    Conectando cuidado, pessoas e oportunidades.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+                    <h4>Plataforma</h4>
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#cuidadoras">Cuidadoras</a>
+                </div>
+
+                <div>
+                    <h4>Oportunidades</h4>
+                    <a href="#oportunidades">Trabalho</a>
+                    <a href="#capacitação">Capacitação</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Mães em Rede — Projeto acadêmico.
+            </span>
+
+            <span>
+                Desenvolvido para fins de prototipação.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         MODAL DE CADASTRO
+    ========================== -->
+
+    <div class="modal-overlay" id="cadastroModal">
+
+        <div class="modal">
+
+            <button
+                class="modal-close"
+                onclick="fecharCadastro()"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-icon">
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+
+            <h2>Faça seu cadastro</h2>
+
+            <p>
+                Crie seu perfil para fazer parte do Mães em Rede.
+            </p>
+
+            <form onsubmit="cadastrarUsuario(event)">
+
+                <div class="form-group">
+
+                    <label>Nome completo</label>
+
+                    <input
+                        type="text"
+                        id="nomeCadastro"
+                        placeholder="Digite seu nome"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>E-mail</label>
+
+                    <input
+                        type="email"
+                        placeholder="seu@email.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Telefone</label>
+
+                    <input
+                        type="tel"
+                        placeholder="(15) 99999-9999"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Você é:</label>
+
+                    <select required>
+
+                        <option value="">
+                            Selecione
+                        </option>
+
+                        <option>
+                            Mãe / Responsável
+                        </option>
+
+                        <option>
+                            Cuidadora
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <button class="btn btn-primary full-btn">
+                    Criar cadastro
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         MODAL DE PERFIL
+    ========================== -->
+
+    <div class="modal-overlay" id="perfilModal">
+
+        <div class="modal profile-modal">
+
+            <button
+                class="modal-close"
+                onclick="fecharPerfil()"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="profile-modal-avatar" id="modalAvatar">
+                AM
+            </div>
+
+            <h2 id="modalNome">
+                Ana Martins
+            </h2>
+
+            <p id="modalLocal">
+                <i class="fa-solid fa-location-dot"></i>
+                Centro, Itapetininga
+            </p>
+
+            <div class="modal-rating">
+
+                <i class="fa-solid fa-star"></i>
+                <strong>4.9</strong>
+                <span>18 avaliações</span>
+
+            </div>
+
+            <div class="profile-details">
+
+                <div>
+                    <i class="fa-solid fa-briefcase"></i>
+                    <strong>Experiência</strong>
+                    <span>3 anos</span>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-clock"></i>
+                    <strong>Disponibilidade</strong>
+                    <span>Manhã e tarde</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-child"></i>
+                    <strong>Serviços</strong>
+                    <span>Cuidados infantis</span>
+                </div>
+
+            </div>
+
+
+            <div class="reviews">
+
+                <h3>Avaliações</h3>
+
+                <div class="review">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Muito cuidadosa e responsável."
+                    </p>
+
+                    <span>
+                        — Participante da plataforma
+                    </span>
+
+                </div>
+
+                <div class="review">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Excelente experiência."
+                    </p>
+
+                    <span>
+                        — Usuária cadastrada
+                    </span>
+
+                </div>
+
+            </div>
+
+            <button
+                class="btn btn-primary full-btn"
+                onclick="mostrarMensagem('Solicitação de contato enviada!')"
+            >
+                Entrar em contato
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         NOTIFICAÇÃO
+    ========================== -->
+
+    <div class="toast" id="toast">
+
+        <i class="fa-solid fa-circle-check"></i>
+
+        <span id="toastMessage">
+            Ação realizada!
+        </span>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
